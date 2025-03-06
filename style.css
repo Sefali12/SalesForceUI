@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+
+}
+#header{
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+}
+#buttons{
+   display: flex;
+    
+
+}
+#button1{
+    margin:10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    width: 23%;
+    text-align: center;
+}
+#button1:hover{
+    background-color: rgb(8, 8, 78);
+}
+#button2{
+    margin:10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    width: 23%;
+    text-align: center;
+}    
+#button2:hover{
+    background-color: rgb(170, 170, 196);
+}
+#box1 h1{
+    font-weight: 600px;
+    font-size: 55px;
+    margin: 10px;
+    color: rgb(10, 10, 62);
+    margin-top: 30px;
+}
+#box2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#box1 p{
+    font-size: x-large;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contactdetails{
+    margin: 20px;
+    color: rgb(74, 74, 223);
+}
+#login{
+    display: flex;
+}
+#logo{
+    height: 70%;
+    margin: 10px;
+}
+#logo img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+
+}
+#login{
+    padding: 10px;
+    border-radius: 50px;
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(2, 19, 2);
+}
+#fakeheader{
+    height: 15%;
+    width: 100%;
+}
+#page1{
+    height: 85%;
+    width: 100%;
+    
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(6, 6, 72);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#strip u{
+    margin-left: 10px;
+    
+
+}
+#Content{
+    height: 76%;
+    width: 100%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    width: 50%;
+   
+    margin: 10px;
+}
+#box2{
+    height: 90%;
+    width: 50%;
+   
+    margin: 10px;
+}
+#heading{
+    width: 100%;
+    height: 16%;
+    color: rgb(6, 6, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+#page2{
+    height:85%;
+    width: 100%;
+    background-color: crimson;
+}
+.texts{
+    margin: 10px;
+    display: flex;
+    color: rgb(9, 9, 146);
+    font-weight: bold;
+}
+.texts:hover{
+    color:rgb(13, 92, 118)
+}
